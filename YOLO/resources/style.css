@@ -60,6 +60,7 @@ html {
 	font-size: 25px;
 	height: 50px;
 	list-style-type: none;
+	margin-bottom:20px;'
 }
 
 #News ul {
@@ -75,6 +76,7 @@ html {
 	margin-left: 10px;
 	box-shadow: 5px 5px 5px #888888;
 	background-color: white;
+	margin-bottom:90px;
 }
 
 #news {
@@ -395,6 +397,7 @@ input:hover, textarea:hover, input:focus, textarea:focus {
 	border-spacing: 0;
 	margin: 20px auto;
 	text-align: center;
+	margin-bottom:90px;
 }
 
 .tg td {
@@ -430,9 +433,11 @@ input:hover, textarea:hover, input:focus, textarea:focus {
 	width: 250px;
 	text-align: center;
 }
-
+#oli  {
+	margin: 0 0 10px 0;
+}
 #oli p {
-	margin: 20px 0 20px 24%;
+	margin: -20px 0 20px 24%;
 	width: 100px;
 	font-family: Montserrat, sans-serif;
 	font-size: 20px;
@@ -449,6 +454,7 @@ input:hover, textarea:hover, input:focus, textarea:focus {
 
 .vereine_2 {
 	background-color: #D5D5D5;
+	margin-bottom:50px;
 }
 
 .tg_2 {
