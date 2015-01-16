@@ -1,0 +1,472 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html {
+	background-color: #f4f4f4;
+}
+
+#header {
+	background-image: url("../images/header.png");
+	width: 100%;
+	height: 180px;
+	float: left;
+	margin: 3px 0;
+	background-repeat: no-repeat;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#footer {
+	background-color: #333333;
+	width: 100%;
+	height: 50px;
+	float: left;
+	bottom: 10px;
+	font-family: Montserrat, sans-serif;
+	font-weight: 400;
+	color: #888;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 9px;
+	box-shadow: 5px 5px 5px #888888;
+	margin-top: -60px;
+	font-family: Montserrat, sans-serif;
+	
+}
+
+#LatestNews {
+	font-family: Montserrat, sans-serif;
+	font-weight: 400;
+	color: #dddddd;
+	list-style-type: none;
+	width: 100%;
+	height: 50px;
+	float: left;
+	text-align: center;
+	background: #333333;
+	padding: 10px 0 0 0;
+	font-size: 25px;
+}
+
+#Uberschrift {
+	font-family: Montserrat, sans-serif;
+	font-weight: 400;
+	color: #dddddd;
+	width: 100%;
+	list-style-type: none;
+	height: 50px;
+	float: left;
+	text-align: center;
+	background: #333333;
+	padding: 10px 0 0 0;
+	font-size: 25px;
+	height: 50px;
+	list-style-type: none;
+}
+
+#News ul {
+	list-style-type: none;
+}
+
+#content {
+	width: 74.4%;
+	height: auto;
+	float: left;
+	margin-top: 10px;
+	min-height: 600px;
+	margin-left: 10px;
+	box-shadow: 5px 5px 5px #888888;
+	background-color: white;
+}
+
+#news {
+	margin-top: 10px;
+	background-color: white;
+	width: 25%;
+	height: auto;
+	float: left;
+	min-height: 600px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#cssmenu {
+	width: 50%;
+	height: 80px;
+	float: right;
+	margin: 0;
+}
+
+#site {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+#navigation {
+	background: #333333;
+	width: 100%;
+	height: 80px;
+	float: right;
+	padding: 0;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+.datum {
+	float: left;
+	width: 50px;
+	margin: 5px 50px;
+	font-family: Montserrat, sans-serif;
+	font-weight: 400;
+	color: #888;
+	font-size: 20px;
+}
+
+.titel {
+	float: left;
+	width: 300px;
+	margin: 5px;
+}
+
+.titel a {
+	text-decoration: none;
+	color: #888;
+	font-size: 20px;
+	font-family: Montserrat, sans-serif;
+	font-weight: 400;
+}
+
+#News ul li a:hover {
+	color: #2ea7fe;
+}
+
+.Rahmen {
+	width: 109.5%;
+	height: 25px;
+	float: left;
+	margin: 10px 0px 0 -40px;
+	border-bottom: 1px solid grey;
+	padding: 0 0 5px 0;
+}
+
+#social {
+	width: 400px;
+	float: left;
+	margin: 10px;
+	position: absolute;
+	margin-top: 2px;
+}
+
+#instagram {
+	margin-top: 0px;
+	float: left;
+	margin-left: 15px;
+	margin-right: -50px;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	margin-right: -50px;
+	transition: width 0.5s;
+}
+
+#twitter {
+	float: left;
+	margin: 0px -10px 0 65px;
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+	position: absolute;
+	transition: width 0.5s;
+}
+
+#twitter:hover {
+	-webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0 */
+	transition: width 0.5s;
+	width: 60px;
+	height: 60px;
+}
+
+#instagram:hover {
+	-webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0 */
+	transition: width 0.5s;
+	width: 60px;
+	height: 60px;
+}
+
+#facebook-square {
+	float: left;
+	margin-left: 115px;
+	position: absolute;
+	height: 50px;
+	transition: width 0.5s;
+	width: 50px;
+}
+
+#facebook-square:hover {
+	-webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0 */
+	transition: width 0.5s;
+	width: 60px;
+	height: 60px;
+}
+
+#login {
+	width: 100px;
+	height: 100px;
+	float: right;
+	margin: -60px 318px 10px 1000px;
+	font-family: Montserrat, sans-serif;
+	font-weight: 400;
+}
+
+#login a:hover {
+	color: #2ea7fe;
+}
+
+a {
+	text-decoration: none;
+	color: #888;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+.text {
+	color: #888;
+	font-size: 20px;
+	font-family: Montserrat, sans-serif;
+	font-weight: 400;
+	border-bottom: 1px solid;
+	margin: 20px 0 20px -40px;
+	padding: 10px 0 10px 40px;
+}
+
+.text:hover {
+	color: #2ea7fe;
+}
+
+#Formular {
+	height: 475px;
+	width: 450px;
+	margin: 85px auto 50px auto;
+	padding: 15px;
+	border: 2px double;
+	color: #999999;
+	border-color: #EEE;
+	font-family: Montserrat, sans-serif;
+}
+
+input, textarea {
+	padding: 5px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	font: normal 13px/100% Verdana, Tahoma, sans-serif;
+	width: 200px;
+	background: #FFFFFF url('bg_form.png') left top repeat-x;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF),
+		color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	outline: 0;
+	height: 30px;
+}
+
+textarea {
+	width: 400px;
+	max-width: 400px;
+	height: 150px;
+	line-height: 150%;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+	border-color: #C9C9C9;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}
+
+.form label {
+	margin-left: 10px;
+	color: #999999;
+}
+
+.submit input {
+	width: auto;
+	padding: 9px 15px;
+	background: #333333;
+	border: 0;
+	font-size: 14px;
+	color: #FFF;
+	transition: 0.5s;
+	height: 35px;
+	border-radius: 5px;
+}
+
+.submit input:hover {
+	color: #FFFFFF;
+	background-color: #2ea7fe;
+	border-radius: 5px;
+}
+
+.Anmelde_email {
+	margin: -10px -315px 5px 0;
+	padding-right: 10px;
+}
+
+.passwort_3 {
+	margin: -35px -315px 0 0;
+	float: right;
+}
+
+.submit_1 input {
+	width: auto;
+	padding: 5px;
+	background: #333333;
+	border: 0;
+	position: absolute;
+	-moz-border-radius: 3px 15px 5px 30px;
+	font-size: 14px;
+	color: #FFF;
+	transition: 0.5s;
+	margin-top: -10px;
+	border-radius: 20px;
+	font-family: Montserrat, sans-serif;
+	font-size: 14px;
+}
+
+.submit_1 input:hover {
+	color: #FFFFFF;
+	border-radius: 5px;
+	background-color: #2ea7fe;
+}
+
+#Logos {
+	float: left;
+	margin: 100px 150px;
+	postition: fixed;
+}
+
+#Logos1 {
+	float: right;
+	margin: 100px 150px;
+	postition: fixed;
+}
+
+.bild:hover {
+	height: 218px;
+	width: 510px;
+	transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+
+.bild {
+	width: 500px;
+	height: 208px;
+	transition: width 0.2s, height 0.2s, transform 0.2s;
+}
+
+.login a {
+	font-size: 14px;
+}
+
+#registrieren {
+	float: left;
+	width: 350px;
+	margin: -4px 0 60px 65px;
+	font-size: 13;
+	transition: font 0.3s;
+	transition: width 5s;
+}
+
+#registrieren a:hover {
+	color: #2ea7fe;
+}
+
+.Geschlecht input {
+	width: 50px;
+	height: 0;
+}
+
+.rangliste {
+	width: 100%;
+	height: 52%;
+}
+
+.tg {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.tg td {
+	font-family: Montserrat, sans-serif;
+	font-size: 14px;
+	padding: 10px 5px;
+	border-right: solid;
+	border-width: 2px;
+	border-color: #888;
+	overflow: hidden;
+	word-break: normal;
+}
+
+.tg th {
+	font-family: Montserrat, sans-serif;
+	font-size: 14px;
+	background-color: #888;
+	font-weight: normal;
+	border-right: solid;
+	border-width: 2px;
+	border-color: #888;
+	padding: 10px 5px;
+	border-style: none;
+	overflow: hidden;
+	word-break: normal;
+	width: 50px;
+	text-align: center;
+}
+
+.vereine {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 250px;
+	text-align: center;
+}
+
+#oli p {
+	margin: 20px 0 20px 24%;
+	width: 100px;
+	font-family: Montserrat, sans-serif;
+	font-size: 20px;
+}
+
+.vereine img {
+	float: left;
+}
+
+.vereine_2 img {
+	float: left;
+	background-color: #D5D5D5;
+}
+
+.vereine_2 {
+	background-color: #D5D5D5;
+}
+
+.tg_2 {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 20px auto;
+	text-align: center;
+	background-color: #D5D5D5;
+}
+
+.tg_2 td {
+	font-family: Montserrat, sans-serif;
+	font-size: 14px;
+	padding: 10px 5px;
+	border-right: solid;
+	border-width: 2px;
+	border-color: #888;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #f4f4f4;
+}
